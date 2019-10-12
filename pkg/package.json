@@ -1,0 +1,21 @@
+{
+  "name": "@dazyners/dazyners-wasm",
+  "collaborators": [
+    "Darryl E. Smith <dazynersstudio@gmail.com>"
+  ],
+  "description": "A hello world project by dazynersstudio wasm-pack",
+  "version": "0.1.0",
+  "license": "GNU General Public License v3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DazynersStudio/dazyners-wasm"
+  },
+  "files": [
+    "dazyners_wasm_bg.wasm",
+    "dazyners_wasm.js",
+    "dazyners_wasm.d.ts"
+  ],
+  "module": "dazyners_wasm.js",
+  "types": "dazyners_wasm.d.ts",
+  "sideEffects": "false"
+}
